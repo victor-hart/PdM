@@ -4,20 +4,23 @@ library(shinythemes)
 library(ggplot2)
 library(caret)
 
-
-# Define UI for app that draws a histogram ----
+# Define UI for PdM app
 ui <- tagList(
   fluidPage(theme = shinytheme("cerulean"),
 
   # App title ----
   titlePanel("PdM: A framework for predictive maintenance in industry 4.0 concept"),
+  # App navbar ----
   navbarPage("PdM",
+    # Load data from different sources (local csv file, SQL,..) ---
     tabPanel("Data Import", icon = icon("folder-open")),
+    # Data Exploration --- (summary, visualization)
     navbarMenu("Data Exploration", icon = icon("magic"),
                tabPanel("Descriptive Statistics",
                         icon = icon("list-alt")),
                tabPanel("Data Visualization",
                         icon = icon("bar-chart"))),
+    # Data Preprocessing ---
     tabPanel("Preprocessing", icon = icon("wrench")),
     tabPanel("Setting", icon = icon("cog")),
     tabPanel("Models", icon = icon("folder-open")),
@@ -32,6 +35,8 @@ ui <- tagList(
 
  )
 ),
+
+# App footer ----
 tags$footer("© 2020 Cuong Sai, Maxim Shcherbakov (Volgograd State Technical University)", align = "left", style = "
               position:absolute;
               bottom:0;
