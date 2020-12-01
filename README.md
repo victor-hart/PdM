@@ -2,7 +2,7 @@
 PdM is an R package for predictive maintenance
 _________________________________________________
 ![](https://github.com/forvis/PdM/blob/main/data/Pdm2019.PNG)
-_________________________________________________
+
 ## Installation
 
 You can install the development version of the forvision package
