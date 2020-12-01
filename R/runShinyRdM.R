@@ -1,7 +1,7 @@
 #' @title Run shinyPdM
 #'
 #' @description
-#' Run a local instance of shinyPdM.
+#' Run shinyPdM.
 #'
 #' @param ... [\code{any}]\cr
 #'   Additional arguments passed to shiny's
@@ -17,7 +17,7 @@
 runShinyPdM = function(...) {
   appDir = system.file("shinyPdM", package = "PdM")
   if (appDir == "") {
-    stop("Could not find example directory. Try re-installing `shinyPdM`.", call. = FALSE)
+    stop("Could not find shinyPdM", call. = FALSE)
   }
 
   shiny::runApp(appDir, display.mode = "normal")
