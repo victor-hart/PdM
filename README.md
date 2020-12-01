@@ -1,6 +1,5 @@
 # PdM
 
-![](/data/Pdm2019.PNG)
 
 PdM is an R package for predictive maintenance
 
