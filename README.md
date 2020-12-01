@@ -1,7 +1,7 @@
 # PdM
 
-
 PdM is an R package for predictive maintenance
+![](https://github.com/forvis/PdM/blob/main/data/Pdm2019.PNG)
 
 ## Installation
 
