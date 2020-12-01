@@ -12,7 +12,7 @@ intall.packages("devtools")
 devtools::install_github("forvis/PdM", build_vignettes = TRUE)
 ```
 
-To use interactive graphical user interface of the PdM package use:
+The PdM package also provides interactive graphical user interface (web-application) developed by using Shiny (Cerulean theme). To use interactive graphical user interface of the PdM package use:
 ```r
 library(PdM)
 runShinyPdM()
