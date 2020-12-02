@@ -6,7 +6,7 @@ _________________________________________________
 Machine learning models (using caret package) that are used for predictive maintenance:
 
 - Linear Regression (LM)
-- Regression Trees (CART),
+- Regression Trees (CART)
 – Support Vector Machines (SVM)
 – Random Forests (RF)
 – Bootstrapped Aggregation (Bagging)
