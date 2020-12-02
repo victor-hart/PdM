@@ -7,7 +7,7 @@ Machine learning models (using caret package) that are used for predictive maint
 
 - Linear Regression (LM)
 - Regression Trees (CART)
-– Support Vector Machines (SVM)
-– Random Forests (RF)
-– Bootstrapped Aggregation (Bagging)
-– Extreme Gradient Boosting (XGBoost)
+- Support Vector Machines (SVM)
+- Random Forests (RF)
+- Bootstrapped Aggregation (Bagging)
+- Extreme Gradient Boosting (XGBoost)
