@@ -101,7 +101,7 @@ visualize_data <- function(df, id_engine, cols = NULL, type = "l", n_step = 20) 
   if (type == "l") {
     p <- p + ggplot2::geom_line() +
       ggplot2::geom_smooth(se = FALSE)+
-      gplogt2::facet_wrap(~ s, ncol = 4, scales = "free_y") +
+      ggplot2::facet_wrap(~ s, ncol = 4, scales = "free_y") +
       viridis::scale_color_viridis(discrete = TRUE)+
       ggplot2::ggtitle("Sensor Traces") +
       ggplot2::labs(x = "Time", y = "Measurements") +
